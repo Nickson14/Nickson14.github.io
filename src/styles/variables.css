@@ -1,0 +1,12 @@
+:root {
+  --bg-dark: #0A1A2F;
+  --bg-light: #121E2F;
+  --card-bg: #0F1624;
+
+  --cyan: #12D6DF;
+  --white: #FFFFFF;
+  --gray: #A4AAB8;
+
+  --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
