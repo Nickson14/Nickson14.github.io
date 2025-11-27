@@ -1,35 +1,58 @@
 // src/components/common/Navbar.jsx
 import { NavLink } from "react-router-dom";
-
-const navLinks = [
-  { to: "/", label: "Home" },
-  { to: "/certificaciones", label: "Certificaciones" },
-  { to: "/ctf", label: "CTF" },
-  { to: "/code-review", label: "Code Review" },
-  { to: "/infra", label: "Infraestructura" },
-];
+import "./Navbar.css";
 
 export default function Navbar() {
   return (
     <header className="navbar">
-      <div className="navbar-inner container">
-        <div className="navbar-logo">
-          <span className="logo-tag">&lt;/&gt;</span>
+      <div className="navbar-inner">
+        <a href="/" className="navbar-logo">
+          <span className="logo-code">&lt;/&gt;</span>
           <span className="logo-text">Nickson</span>
-        </div>
+        </a>
 
         <nav className="navbar-links">
-          {navLinks.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              className={({ isActive }) =>
-                `navbar-link ${isActive ? "navbar-link--active" : ""}`
-              }
-            >
-              {link.label}
-            </NavLink>
-          ))}
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) =>
+              "nav-link" + (isActive ? " nav-link-active" : "")
+            }
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/certificaciones"
+            className={({ isActive }) =>
+              "nav-link" + (isActive ? " nav-link-active" : "")
+            }
+          >
+            Certificaciones
+          </NavLink>
+          <NavLink
+            to="/ctf"
+            className={({ isActive }) =>
+              "nav-link" + (isActive ? " nav-link-active" : "")
+            }
+          >
+            CTF
+          </NavLink>
+          <NavLink
+            to="/code-review"
+            className={({ isActive }) =>
+              "nav-link" + (isActive ? " nav-link-active" : "")
+            }
+          >
+            Code Review
+          </NavLink>
+          <NavLink
+            to="/infraestructura"
+            className={({ isActive }) =>
+              "nav-link" + (isActive ? " nav-link-active" : "")
+            }
+          >
+            Infraestructura
+          </NavLink>
         </nav>
       </div>
     </header>
