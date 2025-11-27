@@ -1,30 +1,35 @@
-import { NavLink, Link } from "react-router-dom";
-import "./Navbar.css";
+// src/components/common/Navbar.jsx
+import { NavLink } from "react-router-dom";
+
+const navLinks = [
+  { to: "/", label: "Home" },
+  { to: "/certificaciones", label: "Certificaciones" },
+  { to: "/ctf", label: "CTF" },
+  { to: "/code-review", label: "Code Review" },
+  { to: "/infra", label: "Infraestructura" },
+];
 
 export default function Navbar() {
   return (
     <header className="navbar">
-      <div className="container navbar-inner">
-        <Link to="/" className="navbar-logo">
-          <span className="logo-highlight">&lt;/&gt;</span> Nickson
-        </Link>
+      <div className="navbar-inner container">
+        <div className="navbar-logo">
+          <span className="logo-tag">&lt;/&gt;</span>
+          <span className="logo-text">Nickson</span>
+        </div>
 
         <nav className="navbar-links">
-          <NavLink to="/" className="nav-item">
-            Home
-          </NavLink>
-          <NavLink to="/certificaciones" className="nav-item">
-            Certificaciones
-          </NavLink>
-          <NavLink to="/ctf" className="nav-item">
-            CTF
-          </NavLink>
-          <NavLink to="/code-review" className="nav-item">
-            Code Review
-          </NavLink>
-          <NavLink to="/infra" className="nav-item">
-            Infraestructura
-          </NavLink>
+          {navLinks.map((link) => (
+            <NavLink
+              key={link.to}
+              to={link.to}
+              className={({ isActive }) =>
+                `navbar-link ${isActive ? "navbar-link--active" : ""}`
+              }
+            >
+              {link.label}
+            </NavLink>
+          ))}
         </nav>
       </div>
     </header>

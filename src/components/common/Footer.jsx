@@ -1,15 +1,19 @@
-import "./Footer.css";
+// src/components/common/Footer.jsx
+
+const CURRENT_YEAR = new Date().getFullYear();
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-inner">
-        <p>
-          © {new Date().getFullYear()} Nickson Diaz · Ciberseguridad &  Infraestructura
-        </p>
-        <p className="footer-secondary">
-          Portafolio técnico personal construido con React &amp; Vite
-        </p>
+        <div className="footer-main">
+          <p>
+            © {CURRENT_YEAR} Ruddy Contreras · Ciberseguridad &amp; Infraestructura
+          </p>
+          <p className="footer-subtext">
+            Portafolio técnico personal construido con React &amp; Vite
+          </p>
+        </div>
       </div>
     </footer>
   );
