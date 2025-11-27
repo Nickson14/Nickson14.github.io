@@ -1,7 +1,8 @@
+import "./styles/ctf.css";
 import MainLayout from "./layouts/MainLayout";
 import AppRoutes from "./routes/AppRoutes";
 
-export default function App() {
+function App() {
   return (
     <div className="app-root">
       <MainLayout>
@@ -13,3 +14,4 @@ export default function App() {
   );
 }
 
+export default App;

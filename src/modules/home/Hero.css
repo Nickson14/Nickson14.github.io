@@ -1,14 +1,25 @@
 .hero-container {
-  padding: 80px 20px;
+  padding: 80px 16px 60px;
   color: var(--white);
-  background: var(--bg-dark);
-  text-align: center;
+  background: radial-gradient(circle at top, #12335a 0, #0a1a2f 55%, #050a12 100%);
+}
+
+.hero-content {
+  text-align: left;
+}
+
+.hero-tag {
+  font-size: 0.85rem;
+  color: var(--cyan);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .hero-title {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .highlight {
@@ -16,47 +27,47 @@
 }
 
 .hero-subtitle {
-  font-size: 1.3rem;
-  color: var(--cyan);
-  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: var(--gray);
+  margin-bottom: 18px;
 }
 
 .hero-description {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 640px;
   color: var(--gray);
-  font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .hero-buttons {
   display: flex;
-  justify-content: center;
-  gap: 15px;
   flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s ease;
 }
 
 .btn-primary {
-  padding: 12px 25px;
   background: var(--cyan);
   color: #000;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
 }
 
 .btn-secondary {
-  padding: 12px 25px;
   border: 2px solid var(--cyan);
   color: var(--cyan);
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
 }
 
 .btn-primary:hover,
 .btn-secondary:hover {
-  opacity: 0.85;
-  transition: 0.2s ease-in-out;
+  opacity: 0.9;
+  transform: translateY(-1px);
 }

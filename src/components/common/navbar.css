@@ -58,7 +58,6 @@
   width: 100%;
 }
 
-/* NavLink aplica la clase "active" cuando coincide la ruta */
 .nav-item.active {
   color: var(--cyan);
 }
