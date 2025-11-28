@@ -94,7 +94,7 @@ export const ctfPosts = [
     platform: "CyberDefenders · LAB",
     thumbnail: "/ctfs/imagenes%20ctf/XML-RAT.jpeg",
     summary:
-      "Inteligencia de amenazas sobre Sandworm usando MITRE ATT&CK para mapear TTPs.",
+      "Archivo pcap el cual contenia codigo obfuscado en los paquetes.",
     mediumUrl: "https://medium.com/@nicksondiazm/xml-rat-cyberdefenders-a91fcfbe9a08", 
   },
 ];
