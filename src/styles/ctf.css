@@ -1,4 +1,32 @@
 /* ====== LISTA DE CTFs ====== */
+/* ====== HEADER DE LA PÁGINA CTF (igual a certificaciones) ====== */
+
+.ctf-page {
+  padding: 70px 16px;
+  background: var(--bg-dark);
+  color: var(--white);
+}
+
+.ctf-page-title {
+  font-size: 2rem;
+  color: var(--cyan);
+  margin-bottom: 16px;
+}
+
+.ctf-page-intro {
+  max-width: 720px;
+  color: var(--gray);
+  line-height: 1.7;
+  margin-bottom: 32px; /* espacio antes del grid */
+}
+
+/* grid tipo certificaciones */
+.ctf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
 
 .page-ctfs {
   padding: 80px 24px;
@@ -219,5 +247,4 @@
 .ctf-post-body p strong {
   color: #f97316;
 }
-
 
