@@ -6,7 +6,7 @@ export const infraProjects = [
     title: "1.4.7-packet-tracer-configure-router-interfaces_es-XL ",
     category: "WiFi · Redes",
     difficulty: "VERY EASY",
-    image: "/Public/redes/LAB-1.PNG",
+    image: "/Redes/LAB-1.png",
     summary:
       "Configuarion Basica de red, con dispositivos cisco.",
     link: "https://medium.com/@nicksondiazm/1-4-7-packet-tracer-configure-router-interfaces-es-xl-cisco-packet-tracer-cf4163b36cb2",
