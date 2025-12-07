@@ -16,7 +16,7 @@ export const infraProjects = [
   title: "1.6.1-packet-tracer — -implement-a-small-network_es-XL",
     category: "WiFi · Redes",
     difficulty: "VERY EASY",
-    image: "/Public/Redes/LAB-2.webp",
+    image: "/Redes/LAB-2.webp",
     summary:
       "Laboratorio para configurar un router, dos switches y las PCs, asignando IPs y ajustes básicos para lograr comunicación entre todas las redes.",
     link: "https://medium.com/@nicksondiazm/1-6-1-packet-tracer-implement-a-small-network-es-xl-cisco-packet-tracert-268e3a9de600?postPublishedType=initial",
@@ -26,7 +26,7 @@ export const infraProjects = [
     title: "1.6.2-packet-tracer-configure-basic-router-settings-physical-mode",
       category: "Redes · Infraestructura",
       difficulty: "VERY EASY",
-      image: "/Public/Redes/LAB-3.webp",
+      image: "/Redes/LAB-3.webp",
       summary:
     "Monitoreo centralizado con SNMP para switches, APs y firewalls. Alarmas automáticas y paneles de análisis.",
       link: "https://medium.com/@nicksondiazm/1-6-2-packet-tracer-configure-basic-router-settings-physical-mode-es-xl-cisco-packet-tracert-97a22a47c5f1?postPublishedType=initial",
