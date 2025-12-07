@@ -28,7 +28,7 @@ export const infraProjects = [
       difficulty: "VERY EASY",
       image: "/Redes/LAB-3.png",
       summary:
-    "Monitoreo centralizado con SNMP para switches, APs y firewalls. Alarmas automáticas y paneles de análisis.",
+    "Configuracion basica en el modo de roueters fisico, asignando IPs y ajustes basicos para lograr comunicacion entre todas las redes.",
       link: "https://medium.com/@nicksondiazm/1-6-2-packet-tracer-configure-basic-router-settings-physical-mode-es-xl-cisco-packet-tracert-97a22a47c5f1?postPublishedType=initial",
  },
 ];
