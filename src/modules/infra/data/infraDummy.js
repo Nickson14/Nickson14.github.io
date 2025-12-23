@@ -28,7 +28,29 @@ export const infraProjects = [
       difficulty: "VERY EASY",
       image: "/Redes/LAB-3.png",
       summary:
-    "Configuracion basica en el modo de roueters fisico, asignando IPs y ajustes basicos para lograr comunicacion entre todas las redes.",
+    "Configuracion basica en el modo de router fisico, asignando IPs y ajustes basicos para lograr comunicacion entre todas las redes.",
       link: "https://medium.com/@nicksondiazm/1-6-2-packet-tracer-configure-basic-router-settings-physical-mode-es-xl-cisco-packet-tracert-97a22a47c5f1?postPublishedType=initial",
  },
+  {
+    id: "Vlans-Configuration",
+    title: "3.3.12-packet-tracer---vlan-configuration_es-XL",
+      category: "Redes · Infraestructura",
+      difficulty: "VERY EASY",
+      image: "/Redes/LAB-4.png",
+      summary:
+    "Configuracion de Vlans en switches cisco, que ayuda a comprender el funcionamiento de las mismas.",
+      link: "https://medium.com/@nicksondiazm/1-6-2-packet-tracer-configure-basic-router-settings-physical-mode-es-xl-cisco-packet-tracert-97a22a47c5f1?postPublishedType=initial",
+ },
+ {
+    id: "Trunk-Configuration",
+    title: "3.4.5-packet-tracer---configure-trunks_es-XL",
+      category: "Redes · Infraestructura",
+      difficulty: "VERY EASY",
+      image: "/Redes/LAB-4.png",
+      summary:
+    "Configuracion de  vlan y trunk donde, configuraremos la comunicacion de todos los dispositivos de la red aunque se encuentren en vlan direfentes.",
+      link: "https://medium.com/@nicksondiazm/1-6-2-packet-tracer-configure-basic-router-settings-physical-mode-es-xl-cisco-packet-tracert-97a22a47c5f1?postPublishedType=initial",
+ },
+
+
 ];

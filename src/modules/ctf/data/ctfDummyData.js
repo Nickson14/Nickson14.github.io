@@ -97,6 +97,26 @@ export const ctfPosts = [
       "Inteligencia de amenazas sobre Sandworm usando MITRE ATT&CK para mapear TTPs.",
     mediumUrl: "https://medium.com/@nicksondiazm/xml-rat-cyberdefenders-a91fcfbe9a08", 
   },
+  {
+   slug: "Campfire-1",
+    title: "Campfire-1 | HacktheBox",
+    difficulty: "Very Easy",
+    platform: "Hackthebox · LAB",
+    thumbnail: "/ctfs/imagenes%20ctf/Campfire-1.jpeg",
+    summary:
+      "Este sherlock nos sumerge en el ataque realizado a un active directory mediante la explotacion de una vulnerabilidad de kerberos.",
+    mediumUrl: "https://medium.com/@nicksondiazm/campfire-1-hackthebox-5d89e5759c6d", 
+  },
+    {
+   slug: "Campfire-2",
+    title: "Campfire-2 | HacktheBox",
+    difficulty: "Very Easy",
+    platform: "Hackthebox · LAB",
+    thumbnail: "/ctfs/imagenes%20ctf/Campfire-2.jpeg",
+    summary:
+      "Este sherlock es la continuacion del anterior, este nos ayuda a entender como se llevo a cabo el ataque a un active directory con el tipo de ataque ASREP Roasting.",
+    mediumUrl: "https://medium.com/@nicksondiazm/crownjewel-2-hack-the-box-beaf64618f6a?postPublishedType=repub", 
+  },
 ];
 
   
