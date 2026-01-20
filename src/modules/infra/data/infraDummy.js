@@ -63,5 +63,59 @@ export const infraProjects = [
       link: "https://medium.com/@nicksondiazm/4-5-1-packet-tracer-inter-vlan-routing-challenge-709fddb76b34?postPublishedType=initial",
  },
 
+ {
+    id: "Etherchannel-Configurations",
+    title: "6.3.4-packet-tracer-troubleshoot-etherchannel",
+      category: "Redes · Infraestructura",
+      difficulty: "VERY EASY",
+      image: "/Redes/LAB-6.png",
+      summary:
+    "Configuración de DHCP en Cisco: Server + DHCP Relay (ip helper-address",
+      link: "https://medium.com/@nicksondiazm/6-3-4-packet-tracer-troubleshoot-etherchannel-9888523f9074?postPublishedType=initial",
+ },
+
+  {
+    id: "DHCP-Configurations",
+    title: "7.4.1-packet-tracer-implement-dhcpv4",
+      category: "Redes · Infraestructura",
+      difficulty: "VERY EASY",
+      image: "/Redes/LAB-7.png",
+      summary:
+    "Configuración de DHCP en Cisco: Server + DHCP Relay (ip helper-address",
+      link: "https://medium.com/@nicksondiazm/7-4-1-packet-tracer-implement-dhcpv4-f605318ccef6",
+ },
+
+  {
+    id: "HSRP-Configurations",
+    title: "9.3.3-packet-tracer-hsrp-configuration-guide",
+      category: "Redes · Infraestructura",
+      difficulty: "VERY EASY",
+      image: "/Redes/LAB-8.png",
+      summary:
+    "En este laboratorio se configura HSRP versión 2 entre dos routers y se valida su funcionamiento con switches.",
+      link: "https://medium.com/@nicksondiazm/9-3-3-packet-tracer-hsrp-configuration-ce70201b1a0d?postPublishedType=initial",
+ },
+ {
+    id: "Security-port",
+    title: "11.1.10-packet-tracer-implement-port-security",
+      category: "Redes · Infraestructura",
+      difficulty: "VERY EASY",
+      image: "/Redes/LAB-9.png",
+      summary:
+    "Configuracion de port-security en switch cisco",
+      link: "https://medium.com/@nicksondiazm/11-1-10-packet-tracer-implement-port-security-6ce86df75434?postPublishedType=initial",
+ },
+ { 
+   id: "Security-configuration",
+    title: "11.6.1-packet-tracer-switch-security-configuration",
+      category: "Redes · Infraestructura",
+      difficulty: "EASY",
+      image: "/Redes/LAB-10.png",
+      summary:
+    "Implementacion de seguridad  en una red de dispositivos cisco",
+      link: "https://medium.com/@nicksondiazm/11-6-1-packet-tracer-switch-security-configuration-13fde18c4cae?postPublishedType=initial",
+ },
+
+
 
 ];
