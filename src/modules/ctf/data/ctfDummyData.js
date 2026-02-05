@@ -117,6 +117,72 @@ export const ctfPosts = [
       "Este sherlock es la continuacion del anterior, este nos ayuda a entender como se llevo a cabo el ataque a un active directory con el tipo de ataque ASREP Roasting.",
     mediumUrl: "https://medium.com/@nicksondiazm/crownjewel-2-hack-the-box-beaf64618f6a?postPublishedType=repub", 
   },
+    {
+   slug: "Noxius",
+    title: "Noxius | HacktheBox",
+    difficulty: "Very Easy",
+    platform: "Hackthebox · LAB",
+    thumbnail: "/ctfs/imagenes%20ctf/Noxious.png",
+    summary:
+      "Análisis de un ataque LLMNR poisoning en Active Directory usando PCAP, evidencia NTLM y recomendaciones de mitigación.",
+    mediumUrl: "https://medium.com/@nicksondiazm/noxious-hack-the-box-ctf-d48af7a7a0e5?postPublishedType=initial", 
+  },
+   {
+   slug: "Alert-lestDefend",
+    title: "Alert 320 | LestDefend",
+    difficulty: "Undefined",
+    platform: "LestDefend · Practice",
+    thumbnail: "/ctfs/imagenes%20ctf/alert-320.png",
+    summary:
+      "A critical zero-day vulnerability named ToolShell (CVE-2025–53770) has been discovered in on-premises SharePoint Server deployments",
+    mediumUrl: "https://medium.com/@nicksondiazm/a-critical-zero-day-vulnerability-named-toolshell-cve-2025-53770-has-been-discovered-in-7e6042061f2c", 
+  },
+
+
+ {
+   slug: "Alert-lestDefend2",
+    title: "SOC164 | LestDefend",
+    difficulty: "Undefined",
+    platform: "LestDefend · Practice",
+    thumbnail: "/ctfs/imagenes%20ctf/SOC164.png",
+    summary:
+      "A critical zero-day vulnerability named ToolShell (CVE-2025–53770) has been discovered in on-premises SharePoint Server deployments",
+    mediumUrl: "Today we’re going to investigate a lestDefent’s alert, trying to response the correct format.", 
+  },
+
+ {
+   slug: "Shiba",
+    title: "SOC164 | LestDefend",
+    difficulty: "Easy",
+    platform: "BlueTeamLabs · CTF",
+    thumbnail: "/ctfs/imagenes%20ctf/Shiba.png",
+    summary:
+      "This challenge we need to response a cybersecurity incident, using different tools for get more information about it.",
+    mediumUrl: "https://medium.com/@nicksondiazm/shiba-insider-blue-team-labs-6f0ab13b50e5", 
+  },
+ {
+   slug: "Pishing",
+    title: "Pishing | BlueTeamLabs",
+    difficulty: "Easy",
+    platform: "BlueTeamLabs · CTF",
+    thumbnail: "/ctfs/imagenes%20ctf/pishing.png",
+    summary:
+      "A critical zero-day vulnerability named ToolShell (CVE-2025–53770) has been discovered in on-premises SharePoint Server deployments",
+    mediumUrl: "https://medium.com/@nicksondiazm/a-critical-zero-day-vulnerability-named-toolshell-cve-2025-53770-has-been-discovered-in-7e6042061f2c", 
+  },
+ {
+   slug: "Alert-lestDefend3",
+    title: "SOC163 | LestDefend",
+    difficulty: "Undefined",
+    platform: "LestDefend · Practice",
+    thumbnail: "/ctfs/imagenes%20ctf/soc163.png",
+    summary:
+      "Today we’re going to do an alert abut Lolbin we did a similiar alert before but now we have more knowledge and I think that It’ll be easy to do.",
+    mediumUrl: "https://medium.com/@nicksondiazm/soc163-suspicious-certutil-exe-usage-lestdefend-4578d5d4ecee", 
+  },
+
 ];
+
+
 
   

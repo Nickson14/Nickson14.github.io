@@ -115,7 +115,16 @@ export const infraProjects = [
     "Implementacion de seguridad  en una red de dispositivos cisco",
       link: "https://medium.com/@nicksondiazm/11-6-1-packet-tracer-switch-security-configuration-13fde18c4cae?postPublishedType=initial",
  },
-
+  {
+   id: "Security-configuration",
+    title: "13.1.10-packet-tracer-configure-a-wireless-network",
+      category: "Redes · Infraestructura",
+      difficulty: "EASY",
+      image: "/Redes/LAB-11.png",
+      summary:
+    "Packet Tracer: How to Configure a Wireless Network (WR + AP) Step by Step",
+      link: "https://medium.com/@nicksondiazm/13-1-10-packet-tracer-configure-a-wireless-network-63602e825ab7",
+ },
 
 
 ];
