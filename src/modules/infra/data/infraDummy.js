@@ -9,7 +9,7 @@ export const infraProjects = [
     image: "/Redes/LAB-1.png",
     summary:
       "Configuarion Basica de red, con dispositivos cisco.",
-    link: "https://medium.com/@nicksondiazm/1-4-7-packet-tracer-configure-router-interfaces-es-xl-cisco-packet-tracer-cf4163b36cb2",
+    link: "https://nickson-infraestructure.hashnode.dev/147-packet-tracer-configure-router-interfaceses-xl-cisco-packet-tracer",
   },
 {
   id: "Configuarion-de-Vlan",
@@ -19,7 +19,7 @@ export const infraProjects = [
     image: "/Redes/LAB-2.png",
     summary:
       "Laboratorio para configurar un router, dos switches y las PCs, asignando IPs y ajustes básicos para lograr comunicación entre todas las redes.",
-    link: "https://medium.com/@nicksondiazm/1-6-1-packet-tracer-implement-a-small-network-es-xl-cisco-packet-tracert-268e3a9de600?postPublishedType=initial",
+    link: "https://nickson-infraestructure.hashnode.dev/161-packet-tracer-implement-a-small-networkes-xl-cisco-packet-tracert",
   },
   {
     id: "Basic-topology-configuration",
@@ -29,8 +29,8 @@ export const infraProjects = [
       image: "/Redes/LAB-3.png",
       summary:
     "Configuracion basica en el modo de router fisico, asignando IPs y ajustes basicos para lograr comunicacion entre todas las redes.",
-      link: "https://medium.com/@nicksondiazm/1-6-2-packet-tracer-configure-basic-router-settings-physical-mode-es-xl-cisco-packet-tracert-97a22a47c5f1?postPublishedType=initial",
- },
+      link: "https://nickson-infraestructure.hashnode.dev/162-packet-tracer-configure-basic-router-settings-physical-modees-xl-cisco-packet-tracert",
+  },
   {
     id: "Vlans-Configuration",
     title: "3.3.12-packet-tracer---vlan-configuration_es-XL",
@@ -60,8 +60,8 @@ export const infraProjects = [
       image: "/Redes/LAB-5.png",
       summary:
     "Segmentación de red con VLANs, administración por VLAN 99 y enlace trunk entre switches en Packet Tracer.",
-      link: "https://medium.com/@nicksondiazm/4-5-1-packet-tracer-inter-vlan-routing-challenge-709fddb76b34?postPublishedType=initial",
- },
+      link: "https://nickson-infraestructure.hashnode.dev/451-packet-tracer-inter-vlan-routing-challenge",
+      },
 
  {
     id: "Etherchannel-Configurations",
@@ -71,7 +71,7 @@ export const infraProjects = [
       image: "/Redes/LAB-6.png",
       summary:
     "Configuración de DHCP en Cisco: Server + DHCP Relay (ip helper-address",
-      link: "https://medium.com/@nicksondiazm/6-3-4-packet-tracer-troubleshoot-etherchannel-9888523f9074?postPublishedType=initial",
+      link: "https://nickson-infraestructure.hashnode.dev/634-packet-tracer-troubleshoot-etherchannel",
  },
 
   {
@@ -82,7 +82,7 @@ export const infraProjects = [
       image: "/Redes/LAB-7.png",
       summary:
     "Configuración de DHCP en Cisco: Server + DHCP Relay (ip helper-address",
-      link: "https://medium.com/@nicksondiazm/7-4-1-packet-tracer-implement-dhcpv4-f605318ccef6",
+      link: "https://nickson-infraestructure.hashnode.dev/741-packet-tracer-implement-dhcpv4",
  },
 
   {
@@ -93,7 +93,7 @@ export const infraProjects = [
       image: "/Redes/LAB-8.png",
       summary:
     "En este laboratorio se configura HSRP versión 2 entre dos routers y se valida su funcionamiento con switches.",
-      link: "https://medium.com/@nicksondiazm/9-3-3-packet-tracer-hsrp-configuration-ce70201b1a0d?postPublishedType=initial",
+      link: "https://nickson-infraestructure.hashnode.dev/933-packet-tracer-hsrp-configuration",
  },
  {
     id: "Security-port",
@@ -103,7 +103,7 @@ export const infraProjects = [
       image: "/Redes/LAB-9.png",
       summary:
     "Configuracion de port-security en switch cisco",
-      link: "https://medium.com/@nicksondiazm/11-1-10-packet-tracer-implement-port-security-6ce86df75434?postPublishedType=initial",
+      link: "https://pruba.hashnode.dev/11110-packet-tracer-implement-port-security",
  },
  { 
    id: "Security-configuration",
@@ -113,7 +113,7 @@ export const infraProjects = [
       image: "/Redes/LAB-10.png",
       summary:
     "Implementacion de seguridad  en una red de dispositivos cisco",
-      link: "https://medium.com/@nicksondiazm/11-6-1-packet-tracer-switch-security-configuration-13fde18c4cae?postPublishedType=initial",
+      link: "https://nickson-infraestructure.hashnode.dev/1161-packet-tracer-switch-security-configuration",
  },
   {
    id: "Security-configuration",
@@ -123,8 +123,7 @@ export const infraProjects = [
       image: "/Redes/LAB-11.png",
       summary:
     "Packet Tracer: How to Configure a Wireless Network (WR + AP) Step by Step",
-      link: "https://medium.com/@nicksondiazm/13-1-10-packet-tracer-configure-a-wireless-network-63602e825ab7",
+      link: "https://nickson-infraestructure.hashnode.dev/13110-packet-tracer-configure-a-wireless-network",
  },
-
 
 ];

@@ -26,7 +26,7 @@ function CtfCard({ post }) {
             rel="noopener noreferrer"
             className="ctf-card-link"  // 👈 mantiene el background bonito
           >
-            Ver writeup en Medium
+            Ver writeup en Hashnode
           </a>
         )}
       </div>

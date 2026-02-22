@@ -21,7 +21,7 @@ export default function InfraCard({ project }) {
           className="infra-card-link"
           target="_blank"
         >
-          Ver writeup en Medium
+          Ver writeup en Hashnode
         </a>
       </div>
     </article>
