@@ -39,7 +39,7 @@ export const infraProjects = [
       image: "/Redes/LAB-4.png",
       summary:
     "Configuracion de Vlans en switches cisco, que ayuda a comprender el funcionamiento de las mismas.",
-      link: "https://medium.com/@nicksondiazm/1-6-2-packet-tracer-configure-basic-router-settings-physical-mode-es-xl-cisco-packet-tracert-97a22a47c5f1?postPublishedType=initial",
+      link: "https://nickson-infraestructure.hashnode.dev/3-3-12-packet-tracer-vlan-configuration-s2-s3",
  },
  {
     id: "Trunk-Configuration",
@@ -49,8 +49,31 @@ export const infraProjects = [
       image: "/Redes/LAB-4.png",
       summary:
     "Configuracion de  vlan y trunk donde, configuraremos la comunicacion de todos los dispositivos de la red aunque se encuentren en vlan direfentes.",
-      link: "https://medium.com/@nicksondiazm/1-6-2-packet-tracer-configure-basic-router-settings-physical-mode-es-xl-cisco-packet-tracert-97a22a47c5f1?postPublishedType=initial",
+      link: "https://nickson-infraestructure.hashnode.dev/3-3-12-packet-trunk-configuration",
  },
+
+ {
+    id: "DTP-Configuration",
+    title: "Packet Tracer Lab: DTP Configuration (Dynamic Trunking Protocol)",
+      category: "Redes · Infraestructura",
+      difficulty: "VERY EASY",
+      image: "/Redes/LAB-12.png",
+      summary:
+    "Learn networking and cybersecurity with step-by-step labs, Packet Tracer guides, and hands-on troubleshooting.",
+      link: "https://nickson-infraestructure.hashnode.dev/packet-tracer-lab-dtp-configuration-dynamic-trunking-protocol",
+ },
+
+  {
+    id: "3.6.1-packet-tracer-implement-vlans-and-trunking",
+    title: "3.6.1-packet-tracer-implement-vlans-and-trunking",
+      category: "Redes · Infraestructura",
+      difficulty: "VERY EASY",
+      image: "/Redes/LAB-13.png",
+      summary:
+    "In this Packet Tracer lab, we create department-based VLANs, assign access ports, build secure trunks between switches, and configure VLAN 99 SVIs for switch management.",
+      link: "https://nickson-infraestructure.hashnode.dev/3-6-1-packet-tracer-implement-vlans-and-trunking-es",
+ },
+
 
  {
     id: "Inter-Vlan-trunk",
@@ -103,7 +126,7 @@ export const infraProjects = [
       image: "/Redes/LAB-9.png",
       summary:
     "Configuracion de port-security en switch cisco",
-      link: "https://pruba.hashnode.dev/11110-packet-tracer-implement-port-security",
+      link: "https://nickson-infraestructure.hashnode.dev/11110-packet-tracer-implement-port-security",
  },
  { 
    id: "Security-configuration",
@@ -124,6 +147,17 @@ export const infraProjects = [
       summary:
     "Packet Tracer: How to Configure a Wireless Network (WR + AP) Step by Step",
       link: "https://nickson-infraestructure.hashnode.dev/13110-packet-tracer-configure-a-wireless-network",
+ },
+
+ {
+   id: "Fortigate-Configuration",
+    title: "Building a GNS3 Lab: FortiGate + Cisco Router + Internet Access (Routing, NAT, DHCP, DNS, Security Profiles)",
+      category: "GNS3 · Infraestructura",
+      difficulty: "EASY",
+      image: "/Redes/LAB-14.png",
+      summary:
+    "The main objective is to provide Internet access to endpoint networks located behind Cisco routers while keeping the FortiGate as the security control point.",
+      link: "https://nickson-infraestructure.hashnode.dev/building-a-gns3-lab-fortigate-cisco-router-internet-access-routing-nat-dhcp-dns-security-profiles",
  },
 
 ];
