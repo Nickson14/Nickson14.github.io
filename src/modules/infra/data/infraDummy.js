@@ -159,5 +159,16 @@ export const infraProjects = [
     "The main objective is to provide Internet access to endpoint networks located behind Cisco routers while keeping the FortiGate as the security control point.",
       link: "https://nickson-infraestructure.hashnode.dev/building-a-gns3-lab-fortigate-cisco-router-internet-access-routing-nat-dhcp-dns-security-profiles",
  },
+  {
+   id: "Enterprise-Server",
+    title: "Enterprise Network Topology with FortiGate, MikroTik and Windows Client Segmentation",
+      category: "GNS3 · Infraestructura",
+      difficulty: "MEDIUM",
+      image: "/Redes/LAB-15.png",
+      summary:
+    "The main objective is to provide Internet access to endpoint networks connected through MikroTik switches while maintaining the FortiGate firewall as the central security and traffic control point.",
+      link: "https://nickson-infraestructure.hashnode.dev/enterprise-network-topology-with-fortigate-mikrotik-and-windows-client-segmentation",
+ },
+
 
 ];

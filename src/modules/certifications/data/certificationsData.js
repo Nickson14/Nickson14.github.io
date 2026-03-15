@@ -30,16 +30,7 @@ export const certifications = [
     certificateUrl: "/certifications/CyberOps Associate.jpg",
     imageUrl: "/certifications/CyberOps Associate.jpg",
   },
-  {
-    id: "cybersecurity-101",
-    title: "Cybersecurity 101",
-    provider: "Cisco / Plataforma",
-    level: "Introducción a Ciberseguridad",
-    status: "completed",
-    date: "",
-    certificateUrl: "/certifications/Cybersecurity 101.jpg",
-    imageUrl: "/certifications/Cybersecurity 101.jpg",
-  },
+
   {
     id: "cybersecurity-essentials",
     title: "Cybersecurity Essentials",
@@ -60,39 +51,26 @@ export const certifications = [
     certificateUrl: "/certifications/data-communication-and-network.png",
     imageUrl: "/certifications/data-communication-and-network.png",
   },
+
   {
-    id: "fcf-getting-started",
-    title: "FCF - Getting Started in Cybersecurity 2.0 (Self-Paced)",
-    provider: "Fortinet / NSE Training Institute",
-    level: "Ciberseguridad · Fundamentos",
-    status: "completed",
-    date: "",
-    certificateUrl:
-      "/certifications/FCF - Getting Started in Cybersecurity 2.0 Self-Paced.png",
-    imageUrl:
-      "/certifications/FCF - Getting Started in Cybersecurity 2.0 Self-Paced.png",
-  },
-  {
-    id: "fcf-technical-intro",
-    title: "FCF - Technical Introduction to Cybersecurity 1.0 (Self-Paced)",
-    provider: "Fortinet / NSE Training Institute",
-    level: "Ciberseguridad · Técnico",
-    status: "completed",
-    date: "",
-    certificateUrl:
-      "/certifications/FCF - Technical Introduction to Cybersecurity 1.0 Self-Pac.ed.png",
-    imageUrl:
-      "/certifications/FCF - Technical Introduction to Cybersecurity 1.0 Self-Pac.ed.png",
-  },
-  {
-    id: "threat-landscape",
-    title: "Introduction to the Threat Landscape",
+    id: "FCF-FORTINET",
+    title: "Fortinet Certified Fundamentals in Cybersecurity ",
     provider: "Fortinet / Otra plataforma",
     level: "Amenazas · Blue Team",
     status: "completed",
-    date: "",
-    certificateUrl: "/certifications/Introduction to the Threat Landscape.jpg",
-    imageUrl: "/certifications/Introduction to the Threat Landscape.jpg",
+    date: "February 1, 2026",
+    certificateUrl: "/certifications/FCF.png",
+    imageUrl: "/certifications/FCF.png",
+  },
+   {
+    id: "FCA-FORTINET",
+    title: "Fortinet Certified Associate in Cybersecurity",
+    provider: "Fortigate / Otra plataforma",
+    level: "Amenazas · Blue Team",
+    status: "completed",
+    date: "February 17, 2026",
+    certificateUrl: "/certifications/FCA.png",
+    imageUrl: "/certifications/FCA.png",
   },
   {
     id: "it-essentials",
@@ -169,7 +147,17 @@ export const certifications = [
     certificateUrl: "/certifications/CTF-HOLMES.jpeg",
     imageUrl: "/certifications/CTF-HOLMES.jpeg",
   },
+    {
+    id: "CC-ISC2",
+    title: "Cybersecurity Certified",
+    provider: "ISC2",
+    status: "completed",
+    date: "Mar 1, 2026",
+    certificateUrl: "/certifications/CC.png",
+    imageUrl: "/certifications/CC.png",
+  },
 ];
 
 
 
+  
