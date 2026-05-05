@@ -170,5 +170,15 @@ export const infraProjects = [
       link: "https://nickson-infraestructure.hashnode.dev/enterprise-network-topology-with-fortigate-mikrotik-and-windows-client-segmentation",
  },
 
+   {
+   id: "Fortinet2",
+    title: "FortiGate GUI Foundation Lab",
+      category: "GNS3 · Infraestructura",
+      difficulty: "MEDIUM",
+      image: "/Redes/LAB-16.png",
+      summary:
+      "The FortiGate GUI Foundation Lab demonstrates how to configure interfaces, routing, NAT, and firewall policies to enable secure network connectivity and internet access in a simulated environment.",
+      link: "https://nickson-infraestructure.hashnode.dev/fortigate-gui-foundation-lab",
+ },
 
 ];

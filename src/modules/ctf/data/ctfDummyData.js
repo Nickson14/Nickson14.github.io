@@ -181,6 +181,17 @@ export const ctfPosts = [
     mediumUrl: "https://pruba.hashnode.dev/soc163-suspicious-certutilexe-usage-lestdefend", 
   },
 
+
+   {
+   slug: "Volt-Typhoon ",
+    title: " Volt Typhoon  | Tryhackme ",
+    difficulty: "MEDIUM",
+    platform: "Tryhackme · Practice",
+    thumbnail: "/ctfs/imagenes%20ctf/Volt-Typhoon1.png",
+    summary:
+      "The Volt Typhoon room on TryHackMe is a Blue Team–focused CTF where you analyze logs and system activity to detect stealthy, real-world attacker techniques like fileless attacks and living-off-the-land methods.",
+    mediumUrl: "https://pruba.hashnode.dev/volt-typhoon-tryhackme-ctf", 
+  },
 ];
 
 
