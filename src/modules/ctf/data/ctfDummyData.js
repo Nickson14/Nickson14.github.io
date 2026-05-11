@@ -192,6 +192,17 @@ export const ctfPosts = [
       "The Volt Typhoon room on TryHackMe is a Blue Team–focused CTF where you analyze logs and system activity to detect stealthy, real-world attacker techniques like fileless attacks and living-off-the-land methods.",
     mediumUrl: "https://pruba.hashnode.dev/volt-typhoon-tryhackme-ctf", 
   },
+
+  {
+   slug: "CONTI",
+    title: " CONTI | Tryhackme ",
+    difficulty: "MEDIUM",
+    platform: "Tryhackme · Practice",
+    thumbnail: "/ctfs/imagenes%20ctf/CONTI.png",
+    summary:
+"The Conti room is a DFIR challenge where you analyze Windows logs and artifacts to investigate a real-world ransomware attack, tracing the adversary from initial access to data exfiltration.",
+    mediumUrl: "https://pruba.hashnode.dev/volt-typhoon-tryhackme-ctf", 
+  },
 ];
 
 

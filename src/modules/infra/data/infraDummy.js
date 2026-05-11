@@ -181,4 +181,15 @@ export const infraProjects = [
       link: "https://nickson-infraestructure.hashnode.dev/fortigate-gui-foundation-lab",
  },
 
+   {
+   id: "Fortinet-Foundation",
+    title: "FortiGate CLI Foundation Lab",
+      category: "GNS3 · Infraestructura",
+      difficulty: "Easy",
+      image: "/Redes/LAB-17.png",
+      summary:
+      "The FortiGate CLI Foundation Lab demonstrates how to configure interfaces, routing, NAT, and firewall policies to enable secure network connectivity and internet access in a simulated environment.",
+      link: "https://nickson-infraestructure.hashnode.dev/enterprise-simulation-nfgw-cli-foundation-lab?utm_source=hashnode&utm_medium=feed",
+ },
+
 ];
