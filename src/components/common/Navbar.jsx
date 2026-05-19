@@ -38,12 +38,12 @@ export default function Navbar() {
             CTF
           </NavLink>
           <NavLink
-            to="/code-review"
+            to="/Wargames"
             className={({ isActive }) =>
               "nav-link" + (isActive ? " nav-link-active" : "")
             }
           >
-            Code Review
+            Wargames
           </NavLink>
           <NavLink
             to="/infra"
